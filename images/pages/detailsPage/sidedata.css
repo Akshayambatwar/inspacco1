@@ -1,0 +1,147 @@
+@import url(
+  //fonts.googleapis.com/css?family=Montserrat:300,
+  400,
+  500,
+  600,
+  700,
+  800
+);
+.CheckPoint {
+    list-style-image: url("check.png");
+}
+
+.DetailsPageText {
+    /* width: 415px; */
+    /* height: 105px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.4; */
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .DetailsPageTitle {
+    /* width: 169px; */
+    /* height: 25px; */
+    /* font-family: Montserrat; */
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.39; */
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .BookNowPestCont {
+    /* width: 255px; */
+    /* height: 24px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .FormDetailsTitleStep {
+    /* width: 123px; */
+    /* height: 19px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .FormsDetailsTextINButtons {
+    /* width: 81px; */
+    /* height: 18px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .DetailsPageMorningInFormData {
+    /* width: 69px; */
+    /* height: 16px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+  }
+
+  .DetailsPageSideDataTile {
+    /* width: 96px; */
+    /* height: 25px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .DetailsPageMainTitle {
+    /* width: 143px; */
+    /* height: 27px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+
+
+  @keyframes spin {
+    from{
+      transform: rotateY(0deg);
+      moz-transform: rotateY(0deg);
+      ms-transform: rotateY(0deg);   
+    }
+    to{
+      transform: rotateY(360deg);
+      moz-transform: rotateY(0deg);
+      ms-transform: rotateY(0deg);
+    }
+
+   }
+
+   @-webkit-keyframes spin{
+    from{-webkit-transform: rotateY(0deg);}
+    to{-webkit-transform: rotateY(360deg);}
+   }
+
+   .imageSpin{
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    -webkit-animation-name: spin;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s;
+   }

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://inspacco.com
+
+# Sitemaps
+Sitemap: https://inspacco.com/sitemap.xml

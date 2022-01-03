@@ -1,0 +1,263 @@
+/* @import url(
+  //fonts.googleapis.com/css?family=Montserrat:300,
+  400,
+  500,
+  600,
+  700,
+  800
+);
+.pricing8 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+} */
+
+
+/* .pricing8 h1,
+.pricing8 h2,
+.pricing8 h3,
+.pricing8 h4,
+.pricing8 h5,
+.pricing8 h6 {
+    color: #3e4555;
+}
+
+.pricing8 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.pricing8 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.pricing8 .display-5 {
+    font-size: 3rem;
+}
+
+.pricing8 .font-14 {
+    font-size: 14px;
+}
+
+.pricing8 .pricing-box sup {
+    top: -20px;
+    font-size: 16px;
+}
+
+.pricing8 .btn-info-gradiant {
+    background: #188ef4;
+    background: -webkit-linear-gradient( legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+    background: -webkit-gradient( linear, left top, right top, from(#188ef4), to(#316ce8));
+    background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+
+.pricing8 .btn-info-gradiant:hover {
+    background: #316ce8;
+    background: -webkit-linear-gradient( legacy-direction(to right), #316ce8 0%, #188ef4 100%);
+    background: -webkit-gradient( linear, left top, right top, from(#316ce8), to(#188ef4));
+    background: -webkit-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: -o-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: linear-gradient(to right, #316ce8 0%, #188ef4 100%);
+}
+
+.pricing8 .btn-danger-gradiant {
+    background: #ff4d7e;
+    background: -webkit-linear-gradient( legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
+    background: -webkit-gradient( linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
+    background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+.pricing8 .btn-danger-gradiant:hover {
+    background: #ff6a5b;
+    background: -webkit-linear-gradient( legacy-direction(to right), #ff6a5b 0%, #ff4d7e 100%);
+    background: -webkit-gradient( linear, left top, right top, from(#ff6a5b), to(#ff4d7e));
+    background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+    background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+    background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+}
+
+.ribbons-1 {
+    width: 36px;
+    height: 53px;
+    object-fit: contain;
+    box-shadow: -1px 3px 6px 0 rgba(0, 0, 0, 0.17);
+    border-style: solid;
+    border-width: 3px;
+    border-image-source: linear-gradient( 156deg, #ffffff 8%, #dfdfdf 35%, #ffffff 73%, #bdbdbd);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #98aec9, #23262b);
+}
+
+.BookNow {
+    width: 136px;
+    height: 25px;
+    object-fit: contain;
+    background-color: #4a6485;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #4a6485;
+}
+
+.PlatinumBullets {
+    list-style-image: url("../components/packages/oval-copy-8.png");
+}
+
+.GoldBullets {
+    list-style-image: url("../components/packages/oval-copy-13.png");
+}
+
+.BookNow {
+    width: 136px;
+    height: 25px;
+    object-fit: contain;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    /* color: #545b6a; */
+
+
+/* }
+.bgCoverBookNow1 {
+    background: url("../components/packages/normal.png");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+
+
+/* padding: 1rem 0; */
+
+
+/* } */
+
+.pricing .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+    background: #f8f8f8;
+}
+
+.pricing h4 {
+    font-size: 36px;
+    color: #1752a0;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.pricing h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+
+.pricing h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.pricing ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.pricing ul li {
+    padding-bottom: 16px;
+}
+
+.pricing ul i {
+    color: #1752a0;
+    font-size: 18px;
+    padding-right: 4px;
+}
+
+.pricing ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.pricing .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.pricing .btn-buy {
+    background: #1752a0;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 50px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.pricing .btn-buy:hover {
+    background: #0c4188;
+}
+
+.pricing .featured h3 {
+    color: #fff;
+    /* background: #1752a0; */
+    background: #4d6380;
+}
+
+.pricing .on-demand h3 {
+    color: #fff;
+    background: #1752a0;
+}
+
+.pricing .gold h3 {
+    color: #fff;
+    background: #b67b15;
+}
+
+.pricing .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #1752a0;
+    color: #fff;
+}

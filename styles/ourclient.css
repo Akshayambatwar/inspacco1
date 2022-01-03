@@ -1,0 +1,73 @@
+.corporate{
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+    cursor: pointer;
+    background-color: #f8f8f8!important;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    width: 115%;
+    height: 28vh;
+    border: none !important;
+    justify-content: space-around;
+}
+.corporate .tooltiptext
+{
+    width: 155px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    top:0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0.5;
+}
+
+.corporate:hover .tooltiptext {
+    visibility: visible;
+
+  }
+
+.corporate:hover{
+    box-shadow:0 1px 4px rgb(98, 98, 99) ; 
+}
+
+hr.new5 {
+    border: 2px solid rgb(49, 0, 128);
+   
+    width:150px;
+  }
+  .society{
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+    cursor: pointer;
+    background-color: #f8f8f8!important;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    width: 115%;
+    height: 9vh;
+    border: none !important;
+    justify-content: space-around;
+   
+}
+.society p{
+    margin-top: 8px;
+}
+.society:hover{
+    box-shadow:0 1px 4px rgb(98, 98, 99) ; 
+}
+
+
+@media  (max-width: 550px) {
+    
+    .society{
+        margin-top: 8px;
+      
+    }
+   
+   .corporate{
+    margin-top: 8px;
+   }
+    
+  }

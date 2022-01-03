@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@media  (max-width: 550px) {
+    
+    .paragraph{
+        margin-left: 0px !important;
+    }
+   
+    .Menus2 {
+        margin-top: 0px !important;
+    }
+    .Menus {
+        margin-top: 0px !important;
+    }
+    
+  }
+
+
+  @media  (width: 768px) {
+    
+    .paragraph{
+        margin-left: 0px !important;
+    }
+   
+   
+    
+  }
+  @media  (width: 1024px) {
+    
+    .paragraph{
+        margin-left: 0px !important;
+    }
+   
+   
+    
+  }
+
+.paragraph{
+    margin-left: 20px;
+}
+.Menus {
+    margin-top: 53px;
+}
+
+.Menus2{
+    margin-top: 55px;
+}
+
+.Client{
+    -webkit-animation: up-down 1s infinite  alternate;
+    animation: up-down 1s infinite  alternate;
+}
+
+.supplier{
+    -webkit-animation: up-down 1s infinite  alternate;
+    animation: up-down 1s infinite  alternate;
+}
+
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.vertical{
+    
+font-size: 40px;
+margin-top: 80px;
+background-color: rgb(3, 56, 106);
+padding:7px;
+padding-top: 30px;
+padding-bottom: 30px;
+color:white;
+border-radius: 5px 50px;
+font-weight: 500;
+
+}

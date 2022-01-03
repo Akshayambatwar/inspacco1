@@ -1,0 +1,49 @@
+/* .Rectangle-Copy-14 {
+  width: 23px;
+  height: 5px;
+  object-fit: contain;
+  border-radius: 2.5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 100, 255, 0.28);
+  background-image: linear-gradient(111deg, #007aff 25%, #0004ff 84%);
+} */
+
+/* @import url(//fonts.googleapis.com/css?family=Montserrat:300, 400, 500);
+.we-serve {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+} */
+
+.we-serve h1,
+.we-serve h2,
+.we-serve h3,
+.we-serve h4,
+.we-serve h5,
+.we-serve h6 {
+  color: #3e4555;
+}
+
+.we-serve .card.card-shadow {
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.we-serve a {
+  text-decoration: none;
+}
+
+.we-serve .wrap-we-serve .card {
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+}
+
+/* .we-serve .wrap-we-serve .card:hover {
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+} */
+/* 
+.we-serve img {
+  width: 50px;
+} */

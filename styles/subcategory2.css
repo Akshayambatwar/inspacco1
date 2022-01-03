@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+
+.subcategories2 h6 {
+  color: #3e4555;
+  /* text-align: center; */
+  margin-left: 100px !important
+}
+
+.cate{
+  margin-left: 100px !important;
+}
+
+
+.subcategories .font-weight-medium {
+  font-weight: 500;
+}
+
+.subcategories a {
+  text-decoration: none;
+  filter: gray; 
+      -webkit-filter: grayscale(1); 
+      -webkit-transition: all .8s ease-in-out; 
+}
+.subcategories a:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+.subcategories .linking {
+  color: #3e4555;
+}
+
+.subcategories .linking:hover {
+  color: #316ce8;
+}
+
+.subcategories .subtitle {
+  color: #8d97ad;
+  line-height: 20px;
+}
+.subcategory-card2{
+  
+  
+}
+
+.subcategory-card2:hover {
+  /* -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  cursor: pointer; */
+  /* -ms-transform: scale(0.1); 
+  -webkit-transform: scale(0.1);
+  transform: scale(1.2);
+   */
+
+   background-color:#E0E0E0;
+   border-radius:15px;
+   cursor:pointer;
+    
+   
+  
+  
+  
+}
+
+/* .square:hover{
+background-color: rgb(221, 217, 217);
+width: 0px;
+
+} */
+
+
+
+.square{
+  width: 50%;
+}
+
+/* .subcategories{
+  background: transparent url("../components/banner/hero_bg2.png") 50% 50% no-repeat padding-box;
+  opacity: 10;
+} */

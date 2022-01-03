@@ -1,0 +1,112 @@
+#offer-section h1,
+#offer-section h2,
+#offer-section h3,
+#offer-section h4,
+#offer-section h5,
+#offer-section h6 {
+  color: #3e4555;
+}
+
+#offer-section .card:hover {
+  cursor: pointer;
+}
+
+#offer-section .card-title {
+  font-size: 18px;
+}
+
+#offer-section .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+#offer-section card-shadow {
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+#offer-section .offer-card {
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+
+  /* transition: box-shadow 0.3s; */
+  /* border-radius: 10px; */
+  /* border: 1px solid #ccc; */
+}
+
+#offer-section .offer-card:hover {
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  /* box-shadow: 0 0 11px rgba(33, 33, 33, 0.2); */
+}
+
+/* #offer-section .b-h-box .card-img-overlay {
+  bottom: 0px;
+  top: auto;
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  height: 55%;
+}
+
+#offer-section .b-h-box .card-title {
+  color: #ffffff;
+}
+
+#offer-section .b-h-box {
+  color: #ffffff;
+}
+
+#offer-section .b-h-box .card-text {
+  display: none;
+}
+
+#offer-section .b-h-box:hover {
+  color: #8d97ad;
+}
+
+#offer-section .b-h-box:hover .card-img-overlay {
+  height: 100%;
+  background: #ffffff;
+  border: 3px solid rgba(120, 130, 140, 0.13);
+}
+
+#offer-section .b-h-box:hover .card-title {
+  color: #263238;
+  margin: 15px 0;
+}
+
+#offer-section .b-h-box:hover .card-text {
+  display: block;
+}
+
+#offer-section .bg-danger-gradiant {
+  background: #ff4d7e;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #ff4d7e 0%,
+    #ff6a5b 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff4d7e),
+    to(#ff6a5b)
+  );
+  background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+} */
+
+#offer-section .font-14 {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  #offer-section .b-h-box .card-img-overlay {
+    height: 40%;
+  }
+}
